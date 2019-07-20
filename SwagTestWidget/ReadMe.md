@@ -1,7 +1,7 @@
 Simple plugin to display random product in shopware.
 
 
-To use this plugin follow the following instruction to use my plugin
+To use this plugin follow the following instruction
 
 
 Install shopware &  activate plugin.
@@ -18,7 +18,7 @@ Or simply
 
 `http://yourdomain/`
 
-You will see 4 product on main page 
+You will see 4 product with image,price and description on main page 
 
 Check plugin basic configuration  by opening the backend url of the shopware`
 ===
