@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <!-- Install the configuration opttion for the plugin for redirct option   -->
+        <element required="false" type="boolean" scope="locale">
+            <name>redirect</name>
+            <label lang="en">Redirect Directly to checkOut</label>
+            <options>
+                <value>yes</value>
+                <value>No</value>
+            </options>
+        </element>
+
+        <!--Install the configuration opttion for the plugin for changing widget title  -->
+
+        <element required="false" type="text" scope="locale">
+            <name>widgetTile</name>
+            <label lang="en">Widget Title</label>
+            <value>Recent Product</value>
+            <description lang="en">This is the title of the widget which will be displayed on the frontend and backend
+            </description>
+        </element>
+
+    </elements>
+</config>
