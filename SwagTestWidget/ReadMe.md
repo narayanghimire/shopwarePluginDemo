@@ -37,7 +37,8 @@ Default Configuration :
 
 * If Redirect to checkout is : YES 
 
-        A)It means on the frontend if you will click on Buy button of product then you will be redirect directly to checkout page of application   
+        A)It means on the frontend if you will click on Buy button of product then you will be 
+        redirect directly to checkout page of application   
 	
 * If Redirect to checkout is :  NO 
 
