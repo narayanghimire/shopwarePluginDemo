@@ -18,7 +18,7 @@ Or simply
 
 `http://yourdomain/`
 
-You will see 4 product on main page 
+You will see 4 product with image,price and description on main page 
 
 Check plugin basic configuration  by opening the backend url of the shopware`
 ===
