@@ -1,7 +1,7 @@
 Simple plugin to display random product in shopware.
 
 
-To use this plugin follow the following instruction to use my plugin
+To use this plugin follow the following instruction
 
 
 Install shopware &  activate plugin.
