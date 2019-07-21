@@ -21,9 +21,9 @@ class PluginService
      * PluginService constructor.
      * @param CachedConfigReader $plugin
      */
-    public function __construct(CachedConfigReader $plugin)
+    public function __construct(CachedConfigReader $pluginConfigReader)
     {
-        $this->pluginConfigReader = $plugin;
+        $this->pluginConfigReader = $pluginConfigReader;
     }
 
     /**

@@ -76,7 +76,7 @@ class SwagTestWidget extends Plugin
     {
 
         $controller = $args->getSubject();
-        $controller->View()->addTemplateDir(__DIR__.'/Resources/views');
+        $controller->View()->addTemplateDir($this->getPath() .'/Resources/views');
 
     }
 

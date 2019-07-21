@@ -1,8 +1,7 @@
 {block name="frontend_listing_box_article"}
     <div class="product--box box--{$productBoxLayout}"
          data-page-index="{$pageIndex}"
-         data-ordernumber="{$sArticle.ordernumber}"
-            {if !{config name=disableArticleNavigation}} data-category-id="{$sCategoryCurrent}"{/if}>
+         data-ordernumber="{$sArticle.ordernumber}">
 
         {block name="frontend_listing_box_article_content"}
             <div class="box--content is--rounded">
