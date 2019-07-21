@@ -42,7 +42,7 @@ Default Configuration :
 	
 * If Redirect to checkout is :  NO 
 
-        A)There will be Details button which will perform behaviour according to CMS 
+        A)There will be Buy button of product which will perform behaviour according to CMS 
          
 
 
