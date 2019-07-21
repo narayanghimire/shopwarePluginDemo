@@ -2,6 +2,7 @@
     {$productCheckOutUrl = {url module="frontend" controller="checkout" action='addArticle' } }
 {/block}
 
+
 {block name="frontend_listing_product_box_button_buy"}
     {block name="frontend_listing_product_box_button_buy_form"}
         {if $pluginConfiguration.redirect }
@@ -13,7 +14,16 @@
                 </button>
             </form>
         {else}
-            {include file="frontend/listing/product-box/button-detail.tpl"}
+
+            {block name="frontend_listing_product_box_button_detail_anchor"}
+                <a href="{$sArticle.linkDetails}" class="buybox--button block btn is--primary is--icon-right is--center is--large">
+                    {block name="frontend_listing_product_box_button_detail_text"}
+                        <span class="buy-btn--cart-add">Buy Now</span> <span class="buy-btn--cart-text"></span><i class="icon--basket"></i> <i class="icon--arrow-right"></i>
+
+                    {/block}
+                </a>
+
+            {/block}
         {/if}
     {/block}
 {/block}
